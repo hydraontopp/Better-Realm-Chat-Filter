@@ -1,0 +1,59 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Chat Filter made by:\nDiscord: Baboonie\nXbox: Ball00nbag. Extension of advanced command handler. Join https://discord.gg/UD2fYZeH2c for help on how to use the pack",
+    "description": "Chat Filter made by:\nDiscord: Baboonie\nXbox: Ball00nbag. Extension of advanced command handler. Join https://discord.gg/UD2fYZeH2c for help on how to use the pack",
+    "uuid": "6f8576e3-e3cd-4060-aad2-9da5a394c17f",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b09a5243-26cd-8886-0cd4-69631825b16b",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "javascript",
+      "uuid": "f9598bf3-ea9f-48f8-eccc-23b3a52204a2",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/index.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "description": "Minecraft module, required to use the Minecraft module",
+      "uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "description": "GameTest module, required to use the GameTest module",
+      "uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    }
+  ]
+}
